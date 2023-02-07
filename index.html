@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todos3.0</title>
+  </head>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+      height: 100%;
+      width: 100%;
+      color: palevioletred;
+    }
+    .components {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between 40vh;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>Todos</h1>
+      <h2>Add your first todo</h2>
+      <p>What do you want to get done today?</p>
+    </div>
+    <div class="components">
+      <div id="tasks"></div>
+      <form>
+        <input id="inputid" type="text " placeholder="Task to be done.." />
+      </form>
+      <button id="buttonid" style="color: palevioletred">Add</button>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
