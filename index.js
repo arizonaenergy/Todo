@@ -11,8 +11,8 @@ if (document.querySelector("#inputid").value.length == 0) {
             <span id="taskname">
                 ${document.querySelector("#inputid").value}
             </span>
-            <button class="delete">
-                <i class="far fa-trash-alt"></i>
+            <button id="buttonid">
+               
             </button>
         </div>
     `;
